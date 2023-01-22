@@ -1,0 +1,21 @@
+lastupdatecheck: 0
+recentrepos:
+- /home/aiden/.config
+- /home/aiden/dwm
+- /home/aiden/suckless/dwm
+- /home/aiden/wallpaper
+- /home/aiden/suckless/st-flexipatch
+- /home/aiden/suckless/st
+- /home/aiden/.config/nvim
+- /home/aiden/OpenWrt
+- /home/aiden/app
+- /home/aiden/.emacs.d
+- /home/aiden/dotconfig
+- /home/aiden/grub2-themes
+- /home/aiden/web/geek-pc
+- /home/aiden/.local/share/omf/themes/cbjohnson
+startuppopupversion: 5
+customcommandshistory:
+- q
+- tig
+hidecommandlog: true

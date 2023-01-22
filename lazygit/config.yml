@@ -1,0 +1,13 @@
+gui:
+  showFileTree: false # for rendering changes files in a tree format
+  parseEmoji: true
+  showIcons: false
+  theme:
+     selectedLineBgColor:
+      - default # set to `default` to have no background colour
+customCommands:
+  - key: "t"
+    command: "tig"
+    context: "status"
+    loadingText: "tig"
+    subprocess: true

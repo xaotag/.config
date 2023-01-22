@@ -1,0 +1,20 @@
+<hosts>
+    <mapping src="shdisas.weixin.qq.com" redirect="szdisas.weixin.qq.com" type="main"/>
+    <mapping src="localhost" redirect="localhost" type="main"/>
+    <mapping src="short.mixpay.wechatpay.cn" redirect="short.mixpay.wechatpay.cn" type="main"/>
+    <mapping src="short.snspay.wechatpay.cn" redirect="short.snspay.wechatpay.cn" type="main"/>
+    <mapping src="findershort.weixin.qq.com" redirect="findershort.weixin.qq.com" type="main"/>
+    <mapping src="minorlong.weixin.qq.com" redirect="shminorlong.weixin.qq.com" type="main"/>
+    <mapping src="quic.weixin.qq.com" redirect="shquic.weixin.qq.com" type="main"/>
+    <mapping src="shbooster.weixin.qq.com" redirect="shbooster.weixin.qq.com" type="main"/>
+    <mapping src="axshort.weixin.qq.com" redirect="axshort.weixin.qq.com" type="main"/>
+    <mapping src="long.weixin.qq.com" redirect="long.weixin.qq.com" type="main"/>
+    <mapping src="short6.weixin.qq.com" redirect="short6.weixin.qq.com" type="main"/>
+    <mapping src="newyear.weixin.qq.com" redirect="newyear.weixin.qq.com" type="main"/>
+    <mapping src="short.pay.weixin.qq.com" redirect="short.pay.weixin.qq.com" type="main"/>
+    <mapping src="minorshort.weixin.qq.com" redirect="minorshort.weixin.qq.com" type="main"/>
+    <mapping src="extshort.weixin.qq.com" redirect="extshort.weixin.qq.com" type="main"/>
+    <mapping src="support.weixin.qq.com" redirect="support.weixin.qq.com" type="main"/>
+    <mapping src="wx.qq.com" redirect="wx.qq.com" type="main"/>
+    <mapping src="short.weixin.qq.com" redirect="short.weixin.qq.com" type="main"/>
+</hosts>
