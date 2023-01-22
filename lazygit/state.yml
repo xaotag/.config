@@ -1,0 +1,23 @@
+lastupdatecheck: 0
+recentrepos:
+- /home/aiden/.config
+- /home/aiden/suckless/surf
+- /home/aiden/suckless/dwm
+- /home/aiden/.config/nvim
+- /home/aiden/mihomo
+- /home/aiden/sing-box
+- /home/aiden/grub2-themes
+- /home/aiden/.local/share/nvim/lazy/lspsaga.nvim
+- /home/aiden/OpenWrt
+- /home/aiden/dwm
+- /home/aiden/wallpaper
+- /home/aiden/suckless/st-flexipatch
+- /home/aiden/suckless/st
+- /home/aiden/.emacs.d
+- /home/aiden/.local/share/omf/themes/cbjohnson
+startuppopupversion: 5
+customcommandshistory:
+- tig
+- q
+hidecommandlog: false
+ignorewhitespaceindiffview: false

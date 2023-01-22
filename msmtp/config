@@ -1,0 +1,25 @@
+account xaotag@gmail.com
+host smtp.gmail.com
+port 465
+from xaotag@gmail.com
+user xaotag@gmail.com
+passwordeval "pass xaotag@gmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/aiden/.local/state/msmtp/msmtp.log
+tls_starttls off
+
+
+account xaotag@foxmail.com
+host smtp.qq.com
+port 465
+from xaotag@foxmail.com
+user xaotag@foxmail.com
+passwordeval "pass xaotag@foxmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/aiden/.local/state/msmtp/msmtp.log
+tls_starttls off
+

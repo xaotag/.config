@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+	<match target="pattern">
+		<test name="family">
+			<string>sans-serif</string>
+		</test>
+		<edit name="family" mode="prepend" binding="strong">
+			<string>FiraCode Nerd Font</string>
+			<string>Noto Sans CJK SC</string>
+			<string>Noto Sans</string>
+			<string>Twemoji</string>
+		</edit>
+	</match>
+</fontconfig>

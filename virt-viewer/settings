@@ -1,0 +1,6 @@
+[virt-viewer]
+share-clipboard=true
+ask-quit=false
+#fedora
+[741344ad-7d0a-455c-8289-4fcde02fd7dc]
+monitor-mapping=1:1;

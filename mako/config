@@ -1,0 +1,14 @@
+font=sans 10
+layer=overlay
+border-size=1
+border-radius=5
+on-button-right=dismiss-all
+
+
+
+[mode=locked]
+layer=top
+
+[mode=dnd]
+invisible=1
+
