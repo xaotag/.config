@@ -1,0 +1,24 @@
+
+# Theme
+include ./current-theme.conf
+# BEGIN_KITTY_FONTS
+# font_size 24
+font_family          Maple Mono NF ExtraLight
+bold_font            Maple Mono NF Bold
+italic_font          Maple Mono NF Italic
+bold_italic_font     Maple Mono NF Bold Italic
+font_features        MapleMono-NF-ExtraLight +cv01 +ss02 +ss04 +ss05 +zero +cv35 +ss06
+font_features        MapleMono-NF-Bold +cv01 +ss02 +ss04 +ss05 +zero +cv35 +ss06
+font_features        MapleMono-NF-Italic +cv01 +ss02 +ss04 +ss05 +zero +cv35 +ss06
+font_features        MapleMono-NF-BoldItalic +cv01 +ss02 +ss04 +ss05 +zero +cv35 +ss06
+font_size 18
+modify_font underline_position 1
+symbol_map U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E000-U+E00A,U+E0A0-U+E0A3,U+E0B0-U+E0C8,U+E0CA,U+E0CC-U+E0D2,U+E0D4,U+E200-U+E2A9,U+E300-U+E3E3,U+E5FA-U+E634,U+E700-U+E7C5,U+EA60-U+EBEB,U+F000-U+F2E0,U+F300-U+F32F,U+F400-U+F4A9,U+F500-U+F8FF Symbols Nerd Font
+symbol_map U+1F300-U+1FAFF Noto Color Emoji
+narrow_symbols U+E0A0-U+E0A3,U+E0C0-U+E0C7 2
+#underline_exclusion 1
+# END_KITTY_FONTS
+cursor_blink_interval 0
+detect_urls no
+mouse_hide_wait 5
+disable_ligatures cursor

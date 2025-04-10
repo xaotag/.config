@@ -1,0 +1,40 @@
+gui:
+  screenMode: "normal" # one of 'normal' | 'half' | 'full' default is 'normal'
+  scrollHeight: 2 # how many lines you scroll by
+  scrollPastBottom: true # enable scrolling past the bottom
+  sidePanelWidth: 0.333 # number from 0 to 1
+  expandFocusedSidePanel: false
+  mainPanelSplitMode: "flexible" # one of 'horizontal' | 'flexible' | 'vertical'
+  language: "auto" # one of 'auto' | 'en' | 'zh' | 'pl' | 'nl' | 'ja' | 'ko'
+  timeFormat: "02 Jan 06 15:04 MST" # https://pkg.go.dev/time#Time.Format
+  showFileTree: false # for rendering changes files in a tree format
+  parseEmoji: true
+  nerdFontsVersion: "3"
+  theme:
+    activeBorderColor:
+      - "#e5c890"
+      - bold
+    inactiveBorderColor:
+      - "#a5adce"
+    optionsTextColor:
+      - "#8caaee"
+    selectedLineBgColor:
+      - "#414559"
+    cherryPickedCommitBgColor:
+      - "#51576d"
+    cherryPickedCommitFgColor:
+      - "#e5c890"
+    unstagedChangesColor:
+      - "#e78284"
+    defaultFgColor:
+      - "#c6d0f5"
+    searchingActiveBorderColor:
+      - "#e5c890"
+    authorColors:
+      "*": "#babbf1"
+customCommands:
+  - key: "t"
+    command: "tig"
+    context: "status"
+    loadingText: "tig"
+    subprocess: true

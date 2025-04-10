@@ -1,0 +1,300 @@
+* {
+	font-weight: normal;
+	font-size: 18px;
+	/* `otf-font-awesome` is required to be installed for icons */
+}
+
+window#waybar {
+	color: #ffffff;
+	background-color: rgba(43, 48, 59, 0.7);
+	transition-duration: 0.5s;
+	transition-property: background-color;
+}
+
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
+
+window#waybar.termite {
+	background-color: #3f3f3f;
+}
+
+window#waybar.chromium {
+	background-color: #000000;
+	border: none;
+}
+
+button {
+	/* Avoid rounded borders under each button name */
+	border: none;
+	border-radius: 0px;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+button:hover {
+	background: inherit;
+}
+
+#workspaces button {
+	padding: 0 3px;
+	color: #ffffff;
+	background-color: transparent;
+}
+
+#workspaces button:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.focused {
+	background-color: #64727d;
+}
+
+#workspaces button.urgent {
+	background-color: #eb4d4b;
+}
+
+#workspaces button.active {
+	background-color: rgba(150, 169, 224, 0.4);
+	border-radius: 2px;
+}
+
+#mode {
+	background-color: #64727d;
+	border-bottom: 3px solid #ffffff;
+}
+
+#clock {
+	padding: 0 10px;
+	color: yellow;
+	background-color: blueviolet;
+}
+
+#custom-time {
+	padding: 0 10px;
+	color: yellow;
+	background-color: blueviolet;
+}
+
+#bluetooth {
+	background-color: green;
+}
+
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#custom-wttr,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#bluetooth,
+#mpd {
+	padding: 0 10px;
+	color: #ffffff;
+}
+
+#window,
+#workspaces {
+	margin: 0 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+	margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+	margin-right: 0;
+}
+
+#battery {
+	padding: 0 10px;
+	color: pink;
+	background-color: #ae8a58;
+}
+
+#battery.charging,
+#battery.plugged {
+	color: #ffffff;
+	background-color: #26a65b;
+}
+
+@keyframes blink {
+	to {
+		color: #000000;
+		background-color: #ffffff;
+	}
+}
+
+#battery.critical:not(.charging) {
+	color: #ffffff;
+	background-color: #f53c3c;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+label:focus {
+	background-color: #000000;
+}
+
+#cpu {
+	/*   background-color: #2ecc71;*/
+	color: orange;
+}
+
+#memory {
+	background-color: #9b59b6;
+}
+
+#disk {
+	background-color: #964b00;
+}
+
+#backlight {
+	background-color: #90b1b1;
+}
+
+#network {
+	background-color: #2980b9;
+}
+
+#network.disconnected {
+	background-color: #f53c3c;
+}
+
+#pulseaudio {
+	padding-right: 20px;
+	color: #000000;
+	background-color: #f1c40f;
+}
+
+#pulseaudio.muted {
+	color: #2a5c45;
+	background-color: #90b1b1;
+}
+
+#wireplumber {
+	color: #000000;
+	background-color: #fff0f5;
+}
+
+#wireplumber.muted {
+	background-color: #f53c3c;
+}
+
+#custom-media {
+	min-width: 100px;
+	color: #2a5c45;
+	background-color: #66cc99;
+}
+
+#custom-media.custom-spotify {
+	background-color: #66cc99;
+}
+
+#custom-media.custom-vlc {
+	background-color: #ffa000;
+}
+
+#temperature {
+	background-color: #f0932b;
+}
+
+#temperature.critical {
+	background-color: #eb4d4b;
+}
+
+#tray {
+	background-color: #2980b9;
+}
+
+#tray > .passive {
+	-gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+	background-color: #eb4d4b;
+	-gtk-icon-effect: highlight;
+}
+
+#idle_inhibitor {
+	background-color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+	color: #2d3436;
+	background-color: #ecf0f1;
+}
+
+#mpd {
+	color: #2a5c45;
+	background-color: #66cc99;
+}
+
+#mpd.disconnected {
+	background-color: #f53c3c;
+}
+
+#mpd.stopped {
+	background-color: #90b1b1;
+}
+
+#mpd.paused {
+	background-color: #51a37a;
+}
+
+#language {
+	min-width: 16px;
+	margin: 0 5px;
+	padding: 0 5px;
+	color: #740864;
+	background: #00b093;
+}
+
+#keyboard-state {
+	min-width: 16px;
+	margin: 0 5px;
+	color: #000000;
+	padding: 0 0px;
+	background: #97e1ad;
+}
+
+#keyboard-state > label {
+	padding: 0 5px;
+}
+
+#keyboard-state > label.locked {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#scratchpad.empty {
+	background-color: transparent;
+}
+
+#custom-wttr {
+	color: #cff807;
+	background: #3007f8;
+}
+
+#custom-email {
+	color: #3007f8;
+	background: #f3f3f3;
+}

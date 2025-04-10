@@ -1,0 +1,35 @@
+Base: /home/aiden/.local/share/fonts/MapleMono-NF-Regular.ttf
+Encoding: UnicodeFull
+UnicodeInterp: none
+LayerCount: 2
+Layer: 0 1 "+gMxmbwAA"
+Layer: 1 1 "+Uk1mbwAA"
+BeginChars: 11781
+
+StartChar: semicolon
+Encoding: 59 59 30
+Width: 607
+GlyphClass: 1
+Flags: WO
+TtInstrs:
+PUSHB_2
+ 1
+ 1
+PUSHW_1
+ 370
+PUSHB_1
+ 53
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 15 44 S 30980.5 -nan 0 -inf -1.20502e+07 -nan 0
+Refer: 17 46 N 1 0 0 1 0 370 0
+Substitution2: "Single Substitution lookup 256 subtable" B.aalt
+Substitution2: "Single Substitution lookup 255 subtable" glyph1170
+Substitution2: "Single Substitution lookup 254 subtable" B.aalt
+Substitution2: "Single Substitution lookup 253 subtable" glyph1169
+AlternateSubs2: "'aalt' Access All Alternates in Latin lookup 1 subtable" glyph1169 B.aalt glyph1170
+EndChar
+EndChars
+EndSplineFont

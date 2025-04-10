@@ -1,0 +1,27 @@
+lastupdatecheck: 1743817099
+recentrepos:
+    - /home/aiden/.config
+    - /home/aiden/mihomo
+    - /home/aiden/.config/nvim
+    - /home/aiden/suckless/dwm
+    - /home/aiden/bisectercise
+    - /home/aiden/ACL4SSR
+    - /home/aiden/suckless/st-flexipatch
+    - /home/aiden/suckless/surf
+    - /home/aiden/grub2-themes
+    - /home/aiden/wallpaper
+    - /home/aiden/suckless/st
+    - /home/aiden/.local/share/omf/themes/cbjohnson
+startuppopupversion: 5
+lastversion: facc73a8
+customcommandshistory:
+    - tig
+    - q
+hidecommandlog: false
+ignorewhitespaceindiffview: false
+diffcontextsize: 2
+renamesimilaritythreshold: 50
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always

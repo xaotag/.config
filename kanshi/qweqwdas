@@ -1,0 +1,11 @@
+# Profile when no external display is connected (only laptop screen)
+profile default {
+    output eDP-1 enable
+}
+
+# Profile when an external display is connected
+profile external {
+    output eDP-1 disable
+    output HDMI-A-1 enable 
+}
+
